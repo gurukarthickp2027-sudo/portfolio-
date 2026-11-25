@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Gurukarthick P, Diploma in Computer Engineering student.">
+  <meta name="theme-color" content="#101027">
+  <title>Gurukarthick P | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Gurukarthick home"><span class="brand-mark">G</span><span>GURUKARTHICK<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link nav-contact">Contact <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> DIPLOMA COMPUTER ENGINEERING STUDENT</p>
+          <h1>Hi, I'm <span class="gradient-text">Gurukarthick P.</span></h1>
+          <h2>Curious mind. <span class="typed-wrap"><span id="typedText">Future technologist.</span></span></h2>
+          <p class="hero-description">I’m a Diploma in Computer Engineering student interested in networking, cloud computing and cyber security. I enjoy learning technologies and building practical projects.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore my work <span>↘</span></a>
+            <a class="btn btn-ghost" href="#contact">Get in touch <span>↗</span></a>
+          </div>
+          <div class="hero-meta"><span><i class="meta-icon">⌁</i> Rajapalayam, Tamil Nadu</span><span><i class="meta-icon">✦</i> Open to learning</span></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="portrait-glow"></div>
+          <div class="portrait-frame">
+            <img src="my-photo.jpg" alt="Portrait of Gurukarthick P" class="profile-photo"
+                 onerror="this.style.display='none';document.getElementById('photoFallback').style.display='grid';">
+            <div class="photo-fallback" id="photoFallback"><span>GP</span><small>Add your photo<br>as my-photo.jpg</small></div>
+          </div>
+          <div class="float-card float-card-top"><span class="float-icon">⌘</span><span><b>Computer</b><small>Engineering</small></span></div>
+          <div class="float-card float-card-bottom"><span class="float-icon purple">✧</span><span><b>Always learning</b><small>One step at a time</small></span></div>
+          <div class="visual-spark spark-a">✦</div><div class="visual-spark spark-b">✧</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">01 / GET TO KNOW ME</p><h2>A little <span class="gradient-text">about me</span></h2></div>
+        <div class="about-grid">
+          <article class="about-card glass-card reveal"><div class="card-symbol">✳</div><h3>My objective</h3>
+            <p>To secure an opportunity where I can apply my knowledge and skills, learn new technologies, and contribute to the growth of the organization while developing my career in the field of computer engineering.</p>
+          </article>
+          <div class="about-side reveal">
+            <div class="mini-stat"><span class="mini-stat-icon">⌘</span><div><b>Computer Engineering</b><small>Diploma student</small></div></div>
+            <div class="mini-stat"><span class="mini-stat-icon pink">◎</span><div><b>Areas of interest</b><small>Networking · Cloud · Cyber Security</small></div></div>
+            <div class="mini-stat"><span class="mini-stat-icon yellow">↗</span><div><b>Personal strengths</b><small>Quick learner · Team player · Adaptable</small></div></div>
+            <div class="language-pills"><span>English</span><span>Tamil</span><small>Spoken languages</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 / WHAT I WORK WITH</p><h2>My <span class="gradient-text">skills</span></h2><p class="section-subtitle">Programming foundations and the people skills I bring to a team.</p></div>
+        <div class="skills-layout">
+          <div class="skill-panel glass-card reveal"><div class="panel-title"><span class="panel-icon">⌨</span><div><h3>Technical skills</h3><p>Programming languages</p></div></div>
+            <div class="code-skills">
+              <div class="code-skill"><div class="code-skill-top"><span class="code-logo python-logo">Py</span><div><b>Python</b><small>Programming</small></div><span class="skill-tag">CORE</span></div><div class="skill-track"><span style="--level:82%"></span></div></div>
+              <div class="code-skill"><div class="code-skill-top"><span class="code-logo java-logo">♨</span><div><b>Java</b><small>Programming</small></div><span class="skill-tag">CORE</span></div><div class="skill-track"><span style="--level:74%"></span></div></div>
+              <div class="code-skill"><div class="code-skill-top"><span class="code-logo c-logo">C</span><div><b>C</b><small>Programming</small></div><span class="skill-tag">CORE</span></div><div class="skill-track"><span style="--level:78%"></span></div></div>
+            </div>
+            <p class="skill-note">Visual bars are illustrative design indicators, not tested proficiency scores.</p>
+          </div>
+          <div class="skill-panel glass-card reveal"><div class="panel-title"><span class="panel-icon pink-bg">✦</span><div><h3>Soft skills</h3><p>How I work with others</p></div></div>
+            <div class="soft-skill-grid"><span>Quick learning</span><span>Teamwork</span><span>Adaptability</span><span>Leadership</span></div>
+            <div class="interest-block"><h4>Areas of interest</h4><div class="interest-chips"><span>Networking</span><span>Cloud computing</span><span>Cyber security</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / LEARNING JOURNEY</p><h2><span class="gradient-text">Education</span></h2></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-card glass-card"><span class="timeline-label">DIPLOMA</span><h3>Diploma in Computer Engineering (DCE)</h3><p class="institution">Ramakrishan Mission Polytechnic College</p><div class="score-row"><span>Academic score</span><strong>85.3%</strong></div><div class="score-track"><span style="--score:85.3%"></span></div></div></article>
+          <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-card glass-card"><span class="timeline-label">SSLC</span><h3>Secondary School Leaving Certificate</h3><p class="institution">P.A.C.M. Hr. Sec. School</p><div class="score-row"><span>Academic score</span><strong>80.4%</strong></div><div class="score-track"><span style="--score:80.4%"></span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section recognition-section" id="achievements">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">04 / MILESTONES & LEARNING</p><h2>Achievements <span class="gradient-text">and certifications</span></h2></div>
+        <div class="recognition-grid">
+          <div class="recognition-column reveal"><h3 class="column-heading"><span>🏆</span> Achievements</h3>
+            <article class="recognition-card glass-card"><span class="recognition-number">01</span><div><h4>State-level Hackathon</h4><p>Participation under the Naan Mudhalvan initiative.</p></div></article>
+            <article class="recognition-card glass-card"><span class="recognition-number">02</span><div><h4>Chicago Speech Competition</h4><p>Secured first place.</p></div></article>
+            <article class="recognition-card glass-card"><span class="recognition-number">03</span><div><h4>Gandhi Trust State-level Speech Competition</h4><p>Secured third prize.</p></div></article>
+          </div>
+          <div class="recognition-column reveal"><h3 class="column-heading"><span>✧</span> Certifications</h3>
+            <article class="cert-card glass-card"><span class="cert-icon">🌐</span><div><h4>CCNA</h4><p>G-MAC Technologies</p></div><span class="cert-arrow">↗</span></article>
+            <article class="cert-card glass-card"><span class="cert-icon">〈/〉</span><div><h4>HTML and CSS</h4><p>Sololearn</p></div><span class="cert-arrow">↗</span></article>
+            <article class="cert-card glass-card"><span class="cert-icon">✳</span><div><h4>Artificial Intelligence Course</h4><p>C-DAC</p></div><span class="cert-arrow">↗</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">05 / THINGS I'VE BUILT</p><h2>Featured <span class="gradient-text">projects</span></h2><p class="section-subtitle">Academic and practical project work.</p></div>
+        <div class="project-grid">
+          <article class="project-card reveal"><div class="project-art art-library"><div class="art-window"><span></span><span></span><span></span><div class="book-stack"><i></i><i></i><i></i></div><div class="art-lines"></div></div><span class="art-orbit">✦</span></div><div class="project-content"><span class="project-type">PROJECT 01</span><h3>Book Management System</h3><p>A system focused on organizing and managing book information.</p><div class="project-footer"><span>Academic project</span><span class="project-symbol">↗</span></div></div></article>
+          <article class="project-card reveal"><div class="project-art art-iot"><div class="iot-rings"><span></span><span></span><span></span><b>⌁</b></div><div class="iot-node node-one">◉</div><div class="iot-node node-two">⌂</div><div class="iot-node node-three">!</div></div><div class="project-content"><span class="project-type">PROJECT 02</span><h3>IoT Burglar Alert System</h3><p>An IoT-based project designed to provide an alert when a burglary-related event is detected.</p><div class="project-footer"><span>Academic project</span><span class="project-symbol">↗</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal"><div class="contact-glow"></div><div class="contact-copy"><p class="eyebrow">06 / LET'S CONNECT</p><h2>Have an opportunity<br>or a project in mind?</h2><p>Feel free to reach out. I'm always interested in learning, connecting and discussing technology.</p><a class="btn btn-light" href="mailto:gurukarthick.p.2027@rkmshome.org">Send an email <span>↗</span></a></div><div class="contact-details">
+          <a href="mailto:gurukarthick.p.2027@rkmshome.org"><span class="contact-icon">✉</span><span><small>EMAIL</small><b>gurukarthick.p.2027@rkmshome.org</b></span></a>
+          <a href="tel:+918122511405"><span class="contact-icon">☎</span><span><small>PHONE</small><b>+91 8122511405</b></span></a>
+          <div class="contact-address"><span class="contact-icon">⌖</span><span><small>ADDRESS</small><b>29/32, Sivagamipuram St,<br>Rajapalayam - 626117</b></span></div>
+        </div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">G</span><span>GURUKARTHICK<span class="brand-dot">.</span></span></a><p>Designed with curiosity and code.</p><a href="#home" class="back-top">Back to top ↑</a><small>© <span id="year"></span> Gurukarthick P</small></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
